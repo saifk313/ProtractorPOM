@@ -10,7 +10,7 @@ describe('This is calculator test', function(){
         homepage.enterSecondNumber('3');
         homepage.goButtonClick();
         homepage.verifyResult('5');
-        browser.sleep(2000) 
+        browser.sleep(1000) 
     });
 
     it('Subtraction Test', function(){
